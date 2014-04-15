@@ -1,0 +1,121 @@
+<?php
+$module_name = 'kr_Violation';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 'name',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'batch_date',
+            'label' => 'LBL_BATCH_DATE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'map_price',
+            'label' => 'LBL_MAP_PRICE',
+          ),
+          1 => 
+          array (
+            'name' => 'customer_price',
+            'label' => 'LBL_CUSTOMER_PRICE',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'violation_amt_c',
+            'label' => 'LBL_VIOLATION_AMT',
+          ),
+          1 => 
+          array (
+            'name' => 'page_url',
+            'label' => 'LBL_PAGE_URL',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'webpage_url',
+            'label' => 'LBL_WEBPAGE_URL',
+          ),
+          1 => 
+          array (
+            'name' => 'website_c',
+            'studio' => 'visible',
+            'label' => 'LBL_WEBSITE',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'seller',
+            'label' => 'LBL_SELLER',
+          ),
+          1 => 
+          array (
+            'name' => 'product_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PRODUCT',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'kr_dealers_kr_violation_1_name',
+            'label' => 'LBL_KR_DEALERS_KR_VIOLATION_1_FROM_KR_DEALERS_TITLE',
+          ),
+          1 => 
+          array (
+            'name' => 'status',
+            'studio' => 'visible',
+            'label' => 'LBL_STATUS',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+?>

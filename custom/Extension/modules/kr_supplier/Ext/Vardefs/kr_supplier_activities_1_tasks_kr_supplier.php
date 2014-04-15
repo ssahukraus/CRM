@@ -1,0 +1,9 @@
+<?php
+// created: 2014-02-25 09:15:36
+$dictionary["kr_supplier"]["fields"]["kr_supplier_activities_1_tasks"] = array (
+  'name' => 'kr_supplier_activities_1_tasks',
+  'type' => 'link',
+  'relationship' => 'kr_supplier_activities_1_tasks',
+  'source' => 'non-db',
+  'vname' => 'LBL_KR_SUPPLIER_ACTIVITIES_1_TASKS_FROM_TASKS_TITLE',
+);
